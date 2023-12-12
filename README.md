@@ -24,7 +24,7 @@ To add Voximplant iOS SDK as a dependency of your package, declare it in `depend
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/voximplant/ios-sdk-releases.git", .upToNextMinor(from: "2.38.0"))
+    .package(url: "https://github.com/voximplant/ios-sdk-releases.git", .upToNextMinor(from: "2.51.0"))
 ]
 ```
 
