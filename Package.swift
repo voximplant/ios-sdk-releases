@@ -12,7 +12,7 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "VoximplantSDK", url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/2.50.0/VoximplantSDK.zip", checksum: "dbb2d8d3291eeb527872cd51e7a514d0d617cd0d5dbaea2326317495ea81a82b"),
+        .binaryTarget(name: "VoximplantSDK", url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/2.51.0/VoximplantSDK.zip", checksum: "fc3644a26e6144c813340c418ab8b1a404c84ee9324711b25af6628014c20f50"),
         .binaryTarget(name: "VoximplantWebRTC", url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-webrtc/106.0.1/WebRTC.zip", checksum: "8443f146da89239d854f206c8be3ac222a8fd6179c1a0382f871dba0635c030b"),
     ]
 )
