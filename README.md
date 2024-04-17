@@ -5,8 +5,8 @@ This repository provides the access to the Voximplant iOS SDK for Swift Package 
 Voximplant iOS SDK is distributed as a binary package (XCFramework) since 2.38.0.
 
 Supported architectures:
-- iphoneos: armv7, arm64
-- iphonesimulator: i386, x86_64, arm64
+- iphoneos: arm64
+- iphonesimulator: x86_64, arm64
 
 
 ## Add Voximplant to your app in Xcode
@@ -24,7 +24,7 @@ To add Voximplant iOS SDK as a dependency of your package, declare it in `depend
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/voximplant/ios-sdk-releases.git", .upToNextMinor(from: "2.51.0"))
+    .package(url: "https://github.com/voximplant/ios-sdk-releases.git", .upToNextMinor(from: "2.52.0"))
 ]
 ```
 
