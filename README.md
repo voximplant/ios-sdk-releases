@@ -1,10 +1,15 @@
-# Voximplant iOS SDK Swift PM
+# Voximplant iOS SDK SPM
 
 This repository provides the access to the Voximplant iOS SDK for Swift Package Manager. 
 
 Voximplant iOS SDK is distributed as a binary package (XCFramework) since 2.38.0.
 
-Supported architectures:
+Supported architectures for Voximplant iOS SDK 3.x:
+- iphoneos: arm64
+- iphonesimulator: x86_64, arm64
+- macos: x86_64, arm64
+
+Supported architectures for Voximplant iOS SDK 2.x:
 - iphoneos: arm64
 - iphonesimulator: x86_64, arm64
 
@@ -22,9 +27,19 @@ More information can be found in [Apple Developer documentation](https://develop
 
 To add Voximplant iOS SDK as a dependency of your package, declare it in `dependencies` section of your `Package.swift`
 
+Voximplant iOS SDK 3.x:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/voximplant/ios-sdk-releases.git", .upToNextMinor(from: "2.56.0"))
+    .package(url: "https://github.com/voximplant/ios-sdk-releases.git", 
+    .upToNextMinor(from: "3.0.0"))
+]
+```
+
+Voximplant iOS SDK 2.x:
+```swift
+dependencies: [
+    .package(url: "https://github.com/voximplant/ios-sdk-releases.git", 
+    .upToNextMinor(from: "2.56.0"))
 ]
 ```
 
@@ -32,6 +47,7 @@ dependencies: [
 
 Voximplant iOS SDK version does not fully conform to [semantic versioning](https://www.semver.org/). 
 
-Backward compatibility is only guaranteed for the patch version. API changes or a dependency update will increment the minor version.
+Backward compatibility is only guaranteed for the patch version. API changes or a dependency update increment the minor version.
 
-Check the Voximplant iOS SDK [changelog](https://voximplant.com/docs/references/iossdk/changelog) before selecting a version requirement. It is recommended to use `exact` or `upToNextMinor` requirements.
+Check the Voximplant iOS SDK changelog before selecting a version requirement. It is recommended to use `exact` or `upToNextMinor` requirements.
+- [Voximplant iOS SDK 2.x changelog](https://voximplant.com/docs/references/iossdk/changelog)
