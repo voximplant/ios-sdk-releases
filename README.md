@@ -31,7 +31,7 @@ Voximplant iOS SDK 3.x:
 ```swift
 dependencies: [
     .package(url: "https://github.com/voximplant/ios-sdk-releases.git", 
-    .upToNextMinor(from: "3.0.0"))
+    .upToNextMinor(from: "3.0.1"))
 ]
 ```
 
