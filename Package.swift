@@ -23,20 +23,20 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "VoximplantCore",
-                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.0.1/VoximplantCore.zip",
-                      checksum: "ec92bbc1769434c5c0f1be5588fb50bade31f4e3a2e10efc0258f3157dc99e35"
+                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.1.0/VoximplantCore.zip",
+                      checksum: "a681a13a771a16c1fd671b29bf4343a103f3079bb7a946d9d99daf238ee32648"
                      ),
         .binaryTarget(name: "VoximplantMessaging",
-                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.0.1/VoximplantMessaging.zip",
-                      checksum: "c9c3a4ed06c8deac8b169c1b621469e06c9a0e7b2c79a596de37ae556ef796b1"
+                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.1.0/VoximplantMessaging.zip",
+                      checksum: "243ff00352a1d6c4535e42ec9e518d4230bca720ebcb64415a912209e84b80e2"
                      ),
         .binaryTarget(name: "VoximplantCalls",
-                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.0.1/VoximplantCalls.zip",
-                      checksum: "a487e331d6ad3f56bc957a8ae32ab37623859990e878782e6d338d4008c80f7a"
+                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.1.0/VoximplantCalls.zip",
+                      checksum: "8800f006f25fdbcee0d365771a6c67dd903d6bff1063339d69af638c975e6b3c"
                      ),
         .binaryTarget(name: "VoximplantWebRTC",
-                      url: "https://s3.eu-central-1.amazonaws.com/voximplant-releases/ios-webrtc/134.0.0/WebRTC.zip",
-                      checksum: "2f9b2ae1427da22d1a859b17667963170cb2bbda1b742b4568f076e0593b5a11"
+                      url: "https://s3.eu-central-1.amazonaws.com/voximplant-releases/ios-webrtc/144.0.0/WebRTC.zip",
+                      checksum: "4db5c323dbeb7f9781d51b9ac0a8f4653696e905fe1cd0fe0f8fcef1a00930b6"
                      )
     ]
 )
