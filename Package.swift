@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Voximplant",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
         .macOS(.v11)
     ],
     products: [
@@ -23,16 +23,16 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "VoximplantCore",
-                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.3.0/VoximplantCore.zip",
-                      checksum: "de03f5a973c87143c18184fb0e0f93ff2189b7e7ac55f31ee06cb54aa68d63dc"
+                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.4.0/VoximplantCore.zip",
+                      checksum: "a942c376075d521c2ca2dbd721e24db1ab8225b0c162fea4c38708790f85addb"
                      ),
         .binaryTarget(name: "VoximplantMessaging",
-                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.3.0/VoximplantMessaging.zip",
-                      checksum: "7584a8bc3b26e908c02a73167f374af9173d881ca4d892640b3d3270fe5cfcab"
+                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.4.0/VoximplantMessaging.zip",
+                      checksum: "1f35932f2513e44a52cfc750039b476ecda138aede626d7291a7ed22467d9df0"
                      ),
         .binaryTarget(name: "VoximplantCalls",
-                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.3.0/VoximplantCalls.zip",
-                      checksum: "008ad07beb286bf5634a483009e90a4ebc80277afc5e9dbac0978359c1de7906"
+                      url: "https://voximplant-releases.s3.eu-central-1.amazonaws.com/ios-sdk/3.4.0/VoximplantCalls.zip",
+                      checksum: "743889d5dbf4860ac4b7acebcaf2d8b7948e595de91b0fd98ee2f09da0e88506"
                      ),
         .binaryTarget(name: "VoximplantWebRTC",
                       url: "https://s3.eu-central-1.amazonaws.com/voximplant-releases/ios-webrtc/144.0.0/WebRTC.zip",
